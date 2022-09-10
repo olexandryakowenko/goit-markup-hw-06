@@ -413,8 +413,8 @@
       <div class="backdrop is-hidden" data-modal>
         <form class="modal-form" autocomplete="off">
           <button class="btn-close-modal" data-modal-close>
-            <svg class="close-icon" width="18" height="18">
-              <use href="./images/icons.svg#icon-close"></use>
+            <svg class="close-icon" width="11" height="11">
+              <use href="./images/sprite.svg#icon-modal-close"></use>
             </svg>
           </button>
 
@@ -578,6 +578,22 @@
             </li>
           </ul>
         </div>
+      
+      <!-- Підписка -->
+        <form class="subscribe-form">
+          <p class="subscribe-title">Підпишіться на розсилку</p>
+          <div class="subscribe-container">
+            <label>
+              <input class="subscribe-email" type="email" name="user-email" placeholder="E-mail"
+            /></label>
+            <button class="btn-submit-subscribe" type="submit">
+              Підписатися
+              <svg class="icon-send" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
     <!-- script-modal-window -->
