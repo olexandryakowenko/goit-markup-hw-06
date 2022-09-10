@@ -728,7 +728,7 @@ p {
   fill: #ffffff;
   
 }
-/* ===== Subscribe ===== */
+/*Subscription */
 
 .subscribe-form {
   margin-left: auto;
@@ -765,6 +765,14 @@ p {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+  transition: var(--transition-time);
+}
+.subscribe-email:hover{
+ border: 1px solid var(--accent-color);
+}
+.subscribe-email:focus{
+outline: none;
+border: 1px solid var(--accent-color);
 }
 
 .btn-submit-subscribe {
