@@ -337,7 +337,13 @@ p {
 
 .form-input {
   position: relative;
+  /* margin-bottom: 10px; */
+}
+.form-field {
   margin-bottom: 10px;
+}
+.form-textarea {
+  margin-bottom: 20px;
 }
 
 .input-label {
@@ -379,7 +385,6 @@ p {
   resize: none;
   padding: 12px 16px;
   border-radius: 4px;
-  margin-bottom: 20px;
 }
 
 .message-input::placeholder {
@@ -677,7 +682,7 @@ p {
 .footer .container {
   display: flex;
   align-items: baseline;
-  column-gap: 70px;
+  justify-content: space-between;
 }
 .address-container {
   width: 231px;
@@ -736,9 +741,9 @@ p {
 }
 /*Subscription */
 
-.subscribe-form {
+/* .subscribe-form {
   margin-left: auto;
-}
+} */
 
 .subscribe-container {
   display: flex;
